@@ -1,0 +1,15 @@
+﻿<Window x:Class="GamingConsoleApp.GamingConsolesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GamingConsoleApp"
+        mc:Ignorable="d"
+        Title="Игровые Консоли" Height="350" Width="525" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <DataGrid Margin="10 10 10 40"></DataGrid>
+        <Button Name="infoButton" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="80" Height="20" Margin="10">Подробнее</Button>
+        <Button Name="addButton" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="80" Height="20" Margin="100 10" Click="addButton_Click">Добавить</Button>
+        <Button Name="deleteButton" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="80" Height="20" Margin="190 10">Удалить</Button>
+    </Grid>
+</Window>

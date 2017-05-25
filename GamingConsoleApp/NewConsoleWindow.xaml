@@ -1,0 +1,19 @@
+﻿<Window x:Class="GamingConsoleApp.NewConsoleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GamingConsoleApp"
+        mc:Ignorable="d"
+        Title="Новая игровая консоль" Height="300" Width="300">
+    <Grid>
+        <Label Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top">_Название:</Label>
+        <TextBox Margin="115 15 10 10" VerticalAlignment="Top"></TextBox>
+        <Label Margin="10 40" HorizontalAlignment="Left" VerticalAlignment="Top">_Производитель:</Label>
+        <ComboBox Name="comboBoxDevelopers" Margin="115 45 10 205"></ComboBox>
+        <Label Margin="10 70" HorizontalAlignment="Left" VerticalAlignment="Top">_Дата выпуска:</Label>
+        <DatePicker Margin="115 72 10 172" Text="d"></DatePicker>
+        <Label Margin="10 100" HorizontalAlignment="Left" VerticalAlignment="Top">_Цена в USD:</Label>
+        <TextBox Margin="115 105 115 10" VerticalAlignment="Top"></TextBox>
+    </Grid>
+</Window>
